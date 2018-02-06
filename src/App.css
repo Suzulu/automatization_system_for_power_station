@@ -1,0 +1,150 @@
+.App {
+  /* text-align: center; */
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.modal-dialog{
+  width: 1000px;
+}
+
+.mycolor{
+  color: red;
+  background-color: pink;
+}
+
+.mylink{
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: 400;
+  line-height: 1.42857143;
+  color: #333;
+  white-space: nowrap;
+}
+
+.mylink:hover{
+  text-decoration: none;
+  color: #333;
+}
+
+.highcharts-credits{
+  display: none;
+}
+
+.bg-cell-gray{
+  background-color: lightgray;
+}
+
+/*--Test--*/
+
+.testOpacity {  
+  /* position: relative; */
+  -webkit-animation: mymove 3s; /* Safari 4.0 - 8.0 */
+  animation: mymove 3s;
+  /* animation-fill-mode: forwards; */
+}
+
+@keyframes mymove {
+  0%   {opacity: 0;}
+  /* 25%  {top: 200px;}
+  75%  {top: 50px} */
+  100% {opacity: 1;}
+}
+
+.tableContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 300px;
+}
+
+.footer{
+  background-color: #222222;
+  color: white;
+  position: fixed;
+  padding: 20px;
+  text-align: center;
+  left: 0;
+  bottom: 0;
+  height: 60px;
+  width: 100%;  
+  z-index: 10;
+}
+
+.row {  
+  margin-bottom: 20px;
+}
+
+/* body{
+  background-color: #eeebeb;
+} */
+
+.displaynone{
+  display: none
+}
+
+/* .login-dropdown{
+  width: 350px;
+  padding: 20px 20px;
+} */
+
+
+
+.login-dropdown.navbar-nav>li>.dropdown-menu { width: 370px; padding: 10px; }
+
+.table > tbody > tr > td {
+  vertical-align: middle;
+}
+
+.input-group .mycolorgreen{  
+  border: 1px solid lightgreen;
+  background-color: lightgreen;
+  color: green;
+  text-align: center;
+}
+
+.input-group .mycolorred{  
+  border: 1px solid pink;
+  background-color: lightpink;
+  color: red;
+  text-align: center;
+}
+
+.input-group .mycolorgray{  
+  border: 1px solid lightgray;
+  background-color: lightgray;
+  color: gray;
+  text-align: center;
+}
+
+.input-group-addon{
+  border: 0px;
+}
+
+.rotate270 {
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
